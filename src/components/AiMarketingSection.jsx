@@ -29,16 +29,30 @@ export default function AiMarketingSection() {
             target, reach
           </p>
           <span className="block bg-gradient-to-r from-[#FF2DF7] via-[#5200FF] to-[#00F0FF] h-[1px] my-10 w-3/4 mx-auto md:ml-0 md:mr-0"></span>
-          <div className="bg-gradient-to-r from-[#FF2DF7] via-[#5200FF] to-[#00F0FF] p-[1px] rounded-2xl w-36">
+          <div className="bg-gradient-to-r from-[#FF2DF7] via-[#5200FF] to-[#00F0FF] p-[1px] rounded-2xl mx-auto w-[90%] sm:w-36">
             <div className="flex justify-center items-center bg-black rounded-2xl py-1 w-full">
-              <button className="pr-2">Get started</button>
-              <Image width={14} height={4} src={arrowright} alt="arrow right" />
+              <button className="flex flex-row items-center justify-center w-full">
+                Get started
+                <Image
+                  width={14}
+                  height={4}
+                  src={arrowright}
+                  alt="arrow right"
+                  className="ml-2"
+                />
+              </button>
             </div>
           </div>
         </div>
 
         <div className="flex justify-center order-1 sm:order-2">
-          <Image height={450} width={450} src={planet} alt="planet" className="max-w-[200px] sm:max-w-none w-full h-auto" />
+          <Image
+            height={450}
+            width={450}
+            src={planet}
+            alt="planet"
+            className="max-w-[200px] sm:max-w-none w-full h-auto"
+          />
         </div>
       </div>
     </section>
