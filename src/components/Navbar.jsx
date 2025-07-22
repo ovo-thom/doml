@@ -19,7 +19,7 @@ export default function Navbar() {
       </nav>
 
       {/* Desktop navbar */}
-      <nav className="text-white border-b h-20 items-center justify-between bg-gray-950 hidden md:flex px-5">
+      <nav className="max-w-5xl mx-auto text-white border-b h-20 items-center justify-between bg-gray-950 hidden md:flex px-5">
         <div className="flex items-center">
           <Image src={logoDoml} alt="logo dml" />
           <Image src={doml} alt="title doml" />

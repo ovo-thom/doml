@@ -6,7 +6,7 @@ import arrowright from "../assets/icons/arrowright.png";
 
 export default function AiMarketingSection() {
   return (
-    <section className="text-white h-screen md:my-32">
+    <section className="max-w-6xl mx-auto text-white h-screen md:py-32">
       <div className="grid grid-cols-1 sm:grid sm:grid-cols-[60%_40%] justify-center items-center">
         <div className="w-full order-2 sm:order-1">
           <Image
