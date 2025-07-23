@@ -5,6 +5,7 @@ import planet from "../assets/images/planet.png";
 import optimizedreach from "../assets/images/optimizedreach.png";
 import AiMarketingSection from "@/components/AiMarketingSection";
 import cube from "../assets/images/cube.png";
+import polymorph from "../assets/images/polymorph.png";
 
 export default function Home() {
   return (
@@ -48,6 +49,28 @@ export default function Home() {
         sideImageAlt="planet"
         sideImageClassName="w-[250px] sm:w-[400px] w-full h-auto"
         reverse={false}
+      />
+      <AiMarketingSection
+        imageClassName="w-64 sm:w-[250px] mx-auto sm:ml-0 sm:mr-0 my-4"
+        imageAlt="aimarketing"
+        imageSrc={aimarketing}
+        description={
+          <>
+            It's all about getting your message in front of the right audience
+            and creating those valuable{" "}
+            <span className="text-blue-500">relationships</span>. Learn More
+            about how DOML can help you do just that - all with a simple,
+            easy-to-use platform.
+          </>
+        }
+        buttonText="Learn more"
+        secondaryImageSrc={optimizedreach}
+        secondaryImageAlt="Optimized Reach"
+        secondaryImageClassName="w-64 sm:w-[250px] mx-auto sm:ml-0 sm:mr-0"
+        sideImageSrc={polymorph}
+        sideImageAlt="polymorph"
+        sideImageClassName="w-[250px] sm:w-[400px] w-full h-auto"
+        reverse={true}
       />
     </div>
   );
