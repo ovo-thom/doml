@@ -7,6 +7,7 @@ import AiMarketingSection from "@/components/AiMarketingSection";
 import cube from "../assets/images/cube.png";
 import polymorph from "../assets/images/polymorph.png";
 import AboutSection from "@/components/AboutSection";
+import lightCube from "../assets/images/lightcube.png"
 
 export default function Home() {
   return (
@@ -74,6 +75,30 @@ export default function Home() {
         reverse={true}
       />
       <AboutSection />
+      <AiMarketingSection
+        imageClassName="w-64 sm:w-[250px] mx-auto sm:ml-0 sm:mr-0 my-4"
+        imageAlt="aimarketing"
+        imageSrc={aimarketing}
+        description={
+          <>
+            DOML is a digital media agency powered by AI technology providing
+            real time,{" "}
+            <span className="text-blue-500">data-driven insights</span> on your
+            business and audience. The mission of DOML is to create the best
+            experiences for companies through intelligent insights, powerful
+            analytics and{" "}
+            <span className="text-blue-500">strategic execution</span>.
+          </>
+        }
+        buttonText="Learn more"
+        secondaryImageSrc={optimizedreach}
+        secondaryImageAlt="Optimized Reach"
+        secondaryImageClassName="w-64 sm:w-[250px] mx-auto sm:ml-0 sm:mr-0"
+        sideImageSrc={lightCube}
+        sideImageAlt="planet"
+        sideImageClassName="w-[250px] sm:w-[400px] w-full h-auto"
+        reverse={false}
+      />
     </div>
   );
 }
