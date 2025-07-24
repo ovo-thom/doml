@@ -9,6 +9,7 @@ import polymorph from "../assets/images/polymorph.png";
 import AboutSection from "@/components/AboutSection";
 import lightCube from "../assets/images/lightcube.png"
 import halfCircle from "../assets/images/halfcircle.png"
+import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
   return (
@@ -122,6 +123,7 @@ export default function Home() {
         sideImageClassName="w-64 sm:w-[400px] h-auto"
         reverse={true}
       />
+    <ContactSection />
     </div>
   );
 }

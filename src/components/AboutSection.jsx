@@ -33,7 +33,7 @@ export default function AboutSection() {
             <Image width={105} height={36} src={discord} alt="discord" className="mx-auto sm:mx-0" />
           </div>
         </div>
-        <div className="flex justify-center items-center pt-8 w-full">
+        <div className="flex justify-center h-6 sm:h-0 items-center pt-8 w-full">
           <Image src={pointsCarousel} alt="carousel" />
         </div>
       </div>
