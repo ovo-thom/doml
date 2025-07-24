@@ -6,6 +6,7 @@ import optimizedreach from "../assets/images/optimizedreach.png";
 import AiMarketingSection from "@/components/AiMarketingSection";
 import cube from "../assets/images/cube.png";
 import polymorph from "../assets/images/polymorph.png";
+import AboutSection from "@/components/AboutSection";
 
 export default function Home() {
   return (
@@ -72,6 +73,7 @@ export default function Home() {
         sideImageClassName="w-[250px] sm:w-[400px] w-full h-auto"
         reverse={true}
       />
+      <AboutSection />
     </div>
   );
 }

@@ -7,7 +7,6 @@ import { RxHamburgerMenu } from "react-icons/rx";
 export default function Navbar() {
   return (
     <>
-      {/* Mobile navbar */}
       <nav className="flex justify-between bg-gray-950 p-5 md:hidden">
         <div className="flex items-center">
           <Image src={logoDoml} alt="logo dml" />
@@ -18,7 +17,6 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Desktop navbar */}
       <nav className="max-w-5xl mx-auto text-white border-b h-20 items-center justify-between bg-gray-950 hidden md:flex px-5">
         <div className="flex items-center">
           <Image src={logoDoml} alt="logo dml" />

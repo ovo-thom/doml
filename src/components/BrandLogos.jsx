@@ -4,7 +4,7 @@ import brandlogos from "../assets/images/groups-logo.png";
 export default function BrandLogos() {
   return (
     <div className="max-w-6xl mx-auto w-full bg-black py-16 sm:pt-20">
-      <div className="  mb-12">
+      <div className="mb-12">
         <Image
           width={1200}
           height={120}
