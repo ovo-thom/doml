@@ -8,6 +8,7 @@ import cube from "../assets/images/cube.png";
 import polymorph from "../assets/images/polymorph.png";
 import AboutSection from "@/components/AboutSection";
 import lightCube from "../assets/images/lightcube.png"
+import halfCircle from "../assets/images/halfcircle.png"
 
 export default function Home() {
   return (
@@ -49,7 +50,7 @@ export default function Home() {
         secondaryImageClassName="w-64 sm:w-[250px] mx-auto sm:ml-0 sm:mr-0"
         sideImageSrc={cube}
         sideImageAlt="planet"
-        sideImageClassName="w-[250px] sm:w-[400px] w-full h-auto"
+        sideImageClassName="w-64 sm:w-[400px]  h-auto"
         reverse={false}
       />
       <AiMarketingSection
@@ -71,7 +72,7 @@ export default function Home() {
         secondaryImageClassName="w-64 sm:w-[250px] mx-auto sm:ml-0 sm:mr-0"
         sideImageSrc={polymorph}
         sideImageAlt="polymorph"
-        sideImageClassName="w-[250px] sm:w-[400px] w-full h-auto"
+        sideImageClassName="w-64 sm:w-[400px] h-auto"
         reverse={true}
       />
       <AboutSection />
@@ -95,9 +96,31 @@ export default function Home() {
         secondaryImageAlt="Optimized Reach"
         secondaryImageClassName="w-64 sm:w-[250px] mx-auto sm:ml-0 sm:mr-0"
         sideImageSrc={lightCube}
-        sideImageAlt="planet"
-        sideImageClassName="w-[250px] sm:w-[400px] w-full h-auto"
+        sideImageAlt="light cube"
+        sideImageClassName="w-64 sm:w-[400px] h-auto"
         reverse={false}
+      />
+      <AiMarketingSection
+        imageClassName="w-64 sm:w-[250px] mx-auto sm:ml-0 sm:mr-0 my-4"
+        imageAlt="aimarketing"
+        imageSrc={aimarketing}
+        description={
+          <>
+            It's all about getting your message in front of the right audience
+            and creating those valuable{" "}
+            <span className="text-blue-500">relationships</span>. Learn More
+            about how DOML can help you do just that - all with a simple,
+            easy-to-use platform.
+          </>
+        }
+        buttonText="Learn more"
+        secondaryImageSrc={optimizedreach}
+        secondaryImageAlt="Optimized Reach"
+        secondaryImageClassName="w-64 sm:w-[250px] mx-auto sm:ml-0 sm:mr-0"
+        sideImageSrc={halfCircle}
+        sideImageAlt="half circle"
+        sideImageClassName="w-64 sm:w-[400px] h-auto"
+        reverse={true}
       />
     </div>
   );
