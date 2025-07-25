@@ -11,6 +11,7 @@ import lightCube from "../assets/images/lightcube.png";
 import halfCircle from "../assets/images/halfcircle.png";
 import ContactSection from "@/components/ContactSection";
 import BrandLogosShort from "@/components/BrandLogosShort";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -126,6 +127,7 @@ export default function Home() {
       />
       <ContactSection />
       <BrandLogosShort />
+      <Footer />
     </div>
   );
 }
