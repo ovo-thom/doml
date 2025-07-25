@@ -7,9 +7,10 @@ import AiMarketingSection from "@/components/AiMarketingSection";
 import cube from "../assets/images/cube.png";
 import polymorph from "../assets/images/polymorph.png";
 import AboutSection from "@/components/AboutSection";
-import lightCube from "../assets/images/lightcube.png"
-import halfCircle from "../assets/images/halfcircle.png"
+import lightCube from "../assets/images/lightcube.png";
+import halfCircle from "../assets/images/halfcircle.png";
 import ContactSection from "@/components/ContactSection";
+import BrandLogosShort from "@/components/BrandLogosShort";
 
 export default function Home() {
   return (
@@ -123,7 +124,8 @@ export default function Home() {
         sideImageClassName="w-64 sm:w-[400px] h-auto"
         reverse={true}
       />
-    <ContactSection />
+      <ContactSection />
+      <BrandLogosShort />
     </div>
   );
 }
