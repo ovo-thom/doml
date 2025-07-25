@@ -4,7 +4,7 @@ import responsiveLogos from "../assets/images/responsiveLogos.png";
 
 export default function BrandLogos() {
   return (
-    <div className="max-w-6xl mx-auto w-full bg-black py-10 sm:pt-20">
+    <div className="max-w-6xl mx-auto w-full bg-black pt-14 sm:pt-20">
       <div className="hidden sm:block  mb-12">
         <Image
           width={1200}

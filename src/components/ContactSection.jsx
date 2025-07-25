@@ -4,7 +4,7 @@ import arrowRight from "../assets/icons/arrowright.png";
 
 export default function ContactSection() {
   return (
-    <div className="text-white max-w-6xl w-[95%] mx-auto py-10">
+    <div className="text-white max-w-6xl w-[95%] mx-auto sm:py-16 py-20">
       <div className="bg-gradient-to-r from-[#FF2DF7] via-[#5200FF] to-[#00F0FF] rounded-xl px-4 py-8 flex flex-col">
         <div className="flex flex-col sm:grid sm:grid-cols-[40%_60%] sm:grid-rows-1 sm:gap-0 w-full sm:h-[300px]">
           <div className="relative flex sm:pt-10 justify-center items-center w-full sm:col-start-1 sm:row-start-1">
