@@ -16,7 +16,7 @@ export default function AiMarketingSection({
   buttonText = "",
 }) {
   return (
-    <section className="max-w-6xl mx-auto text-white py-8 md:py-24">
+    <section data-aos="fade-up" className="max-w-6xl mx-auto text-white py-8 md:py-24">
       <div className="grid grid-cols-1 sm:grid-cols-[60%_40%] items-center">
         {reverse ? (
           <>
