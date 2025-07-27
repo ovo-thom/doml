@@ -43,10 +43,10 @@ export default function Navbar() {
             placeholder="Search Doml"
             className="border border-[#A3A3A3] py-1 px-2 placeholder:text-[#C0C3C9] rounded outline-none bg-[#272F43] text-gray-300 focus:border-blue-500 transition-colors duration-200"
           />
-          <button className="px-2 hover:bg-purple-500 rounded-lg hover:text-white transition-colors duration-200 hover:shadow-lg">
+          <button className="px-2 hover:bg-blue-500 rounded-lg hover:text-white transition-colors duration-200 hover:shadow-lg">
             Sign in
           </button>
-          <button className="border rounded-lg px-2 border-[#9E9C9C] hover:border-purple-500 hover:text-white transition-colors duration-200 hover:shadow-lg">
+          <button className="border rounded-lg px-2 border-[#9E9C9C] hover:border-blue-500 hover:text-white transition-colors duration-200 hover:shadow-lg">
             Sign up
           </button>
         </div>
